@@ -1,3 +1,5 @@
+### NAME:PRAVEEN.K
+### REG.NO:212223040152
 # Led-control-using-Arduino
 
 ## AIM
@@ -59,8 +61,41 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
+![Screenshot 2024-08-21 091547](https://github.com/user-attachments/assets/e866b29e-d47b-4e53-ae8c-9e02aeccf744)
+
+
 ## PROGRAM
+```
+int button=0;
+void setup() {
+  // put your setup code here, to run once:
+pinMode(5,OUTPUT);
+pinMode(4,INPUT);
+}
+
+void loop() {
+  button=digitalRead(4);
+if(button==HIGH)
+  {
+  digitalWrite(5,HIGH);
+  
+  }
+else
+  {
+    digitalWrite(5,LOW);
+    
+  }
+}
+```
 
 ## OUTPUT
+#### led off:
+
+![Screenshot 2024-08-21 091547](https://github.com/user-attachments/assets/4c3c8482-8f99-4f47-9428-fad5cf9d0499)
+
+#### led on:
+![Screenshot 2024-08-21 091609](https://github.com/user-attachments/assets/a581a4a7-6081-4be4-a8a4-33384b52b87f)
+
 
 ## RESULT
+successfully designed and implemented a system for LED control using an Arduino microcontroller and a push button.
