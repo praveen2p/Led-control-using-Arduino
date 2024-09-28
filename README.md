@@ -92,10 +92,11 @@ else
 ## OUTPUT
 #### led off:
 
-![Screenshot 2024-08-21 091547](https://github.com/user-attachments/assets/4c3c8482-8f99-4f47-9428-fad5cf9d0499)
+![Screenshot 2024-09-28 082827](https://github.com/user-attachments/assets/3f728637-f26e-4b01-839a-71a4c394d467)
+
 
 #### led on:
-![Screenshot 2024-08-21 091609](https://github.com/user-attachments/assets/a581a4a7-6081-4be4-a8a4-33384b52b87f)
+![Screenshot 2024-09-28 082839](https://github.com/user-attachments/assets/2bddb0ab-1dba-443e-8bb4-8128b92e099e)
 
 
 ## RESULT
